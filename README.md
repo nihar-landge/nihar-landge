@@ -1,11 +1,3 @@
-# 🚀 Nihar Landge - Portfolio
-
-Welcome to my personal portfolio repository! Here you'll find information about my professional background, skills, and projects.
-
----
-
-<img align="right" height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" />
-
 ## 📬 Connect with Me
 
 <div align="center">
