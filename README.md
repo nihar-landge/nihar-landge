@@ -40,7 +40,7 @@ status:    shipping
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat=flat&logo=gnubash&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
 ---
 
@@ -140,6 +140,86 @@ Events:
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=nihar-landge&theme=algolia&no-frame=true&margin-w=8&column=7" alt="Trophies" />
 </p>
+
+---
+
+### Stack I Run
+
+A snapshot of the cloud-native platform I build and operate. Source-to-prod, fully observable, fully automated.
+
+```mermaid
+flowchart LR
+    subgraph Source
+        DEV([Developer])
+        GIT[Git Push]
+    end
+
+    subgraph CI/CD
+        GHA[GitHub Actions]
+        ARGO[ArgoCD]
+        HELM[Helm]
+    end
+
+    subgraph Runtime
+        EKS[Amazon EKS]
+        EC2[EC2 Workers]
+        S3[S3 State]
+    end
+
+    subgraph Observability
+        OTel[OpenTelemetry]
+        ELK[ELK Stack]
+        PROM[Prometheus]
+    end
+
+    subgraph IaC
+        TF[Terraform]
+        K8S[Kubernetes Manifests]
+    end
+
+    DEV -->|commit| GIT
+    GIT --> GHA
+    GHA -->|build + test| HELM
+    HELM --> ARGO
+    ARGO -->|sync| EKS
+    EKS --> EC2
+    TF -.->|provision| EKS
+    TF -.->|state| S3
+    EKS --> OTel
+    OTel --> ELK
+    OTel --> PROM
+    K8S --> EKS
+
+    classDef src fill:#0e7c7b,color:#fff,stroke:#0e7c7b
+    classDef cicd fill:#2088FF,color:#fff,stroke:#2088FF
+    classDef rt fill:#FF9900,color:#000,stroke:#FF9900
+    classDef obs fill:#425CC7,color:#fff,stroke:#425CC7
+    classDef iac fill:#7B42BC,color:#fff,stroke:#7B42BC
+
+    class DEV,GIT src
+    class GHA,ARGO,HELM cicd
+    class EKS,EC2,S3 rt
+    class OTel,ELK,PROM obs
+    class TF,K8S iac
+```
+
+> _Live in production. Traced end-to-end. Provisioned by code._
+
+---
+
+### Pipeline Status
+
+Live workflow status from my own repos — proof the pipelines stay green.
+
+| Repo | Workflow | Status |
+|------|----------|-------|
+| [`build-service`](https://github.com/nihar-landge/build-service) | CI | [![CI](https://github.com/nihar-landge/build-service/actions/workflows/ci.yml/badge.svg)](https://github.com/nihar-landge/build-service/actions) |
+| [`go-web-app`](https://github.com/nihar-landge/go-web-app) | Build & Deploy | [![Build & Deploy](https://github.com/nihar-landge/go-web-app/actions/workflows/deploy.yml/badge.svg)](https://github.com/nihar-landge/go-web-app/actions) |
+| [`mean-stack-docker-cicd`](https://github.com/nihar-landge/mean-stack-docker-cicd) | Docker CI/CD | [![Docker CI/CD](https://github.com/nihar-landge/mean-stack-docker-cicd/actions/workflows/docker.yml/badge.svg)](https://github.com/nihar-landge/mean-stack-docker-cicd/actions) |
+| [`tomcat-docker-eks-demo`](https://github.com/nihar-landge/tomcat-docker-eks-demo) | Deploy to EKS | [![Deploy](https://github.com/nihar-landge/tomcat-docker-eks-demo/actions/workflows/eks.yml/badge.svg)](https://github.com/nihar-landge/tomcat-docker-eks-demo/actions) |
+| [`shared-workflows`](https://github.com/nihar-landge/shared-workflows) | Reusable Workflows | [![Workflows](https://github.com/nihar-landge/shared-workflows/actions/workflows/test.yml/badge.svg)](https://github.com/nihar-landge/shared-workflows/actions) |
+
+> _If a badge is red, I'm probably already fixing it._
 
 ---
 
