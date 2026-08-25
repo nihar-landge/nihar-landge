@@ -44,37 +44,6 @@ status:    shipping
 
 ---
 
-### Fun Facts
-
-```bash
-$ kubectl describe human nihar-landge
-
-Name:         nihar-landge
-Role:         Cloud & DevOps Engineer
-Age:          22
-Location:     India
-State:        Running
-Restarts:     0
-Ready:        true
-
-Conditions:
-  Type              Status
-  ----              ------
-  Always Shipping   True
-  Learning New      True
-  Open To Work      True
-
-Events:
-  - message: "deployed EKS cluster from scratch"
-  - message: "debugged a flaky pipeline at 2 AM"
-  - message: "wrote docs instead of just YAML"
-  - message: "favorite kubectl command: kubectl explain"
-```
-
-> _"Infrastructure is code. Code is product. Product is empathy."_
-
----
-
 ### Stack I Run
 
 A snapshot of the cloud-native platform I build and operate. Source-to-prod, fully observable, fully automated.
