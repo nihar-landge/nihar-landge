@@ -44,57 +44,6 @@ status:    shipping
 
 ---
 
-### Pinned Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">
-        <a href="https://github.com/nihar-landge/CaptionHarvest">CaptionHarvest</a>
-      </h3>
-      <p align="center">TypeScript application for harvesting captions at scale. Built with a React + Node full-stack architecture.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">
-        <a href="https://github.com/nihar-landge/Observability-opentelemetry-demo">Observability Demo</a>
-      </h3>
-      <p align="center">End-to-end OpenTelemetry tracing & metrics pipeline for cloud-native services. Distributed traces, not guesswork.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat&logo=opentelemetry&logoColor=white" />
-        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">
-        <a href="https://github.com/nihar-landge/ASSESMENT-TERRAFORM">Terraform Platform</a>
-      </h3>
-      <p align="center">Production-grade IaC modules for provisioning AWS infrastructure. Reusable, tested, opinionated.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white" />
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">
-        <a href="https://github.com/nihar-landge/safe-journey-telegram-bot">Safe Journey Bot</a>
-      </h3>
-      <p align="center">Telegram bot that tracks journey safety check-ins. Practical automation, shipped end-to-end.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
 ### Fun Facts
 
 ```bash
@@ -123,23 +72,6 @@ Events:
 ```
 
 > _"Infrastructure is code. Code is product. Product is empathy."_
-
----
-
-### Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nihar-landge&show_icons=true&theme=transparent&hide_border=true&title_color=0e7c7b&icon_color=0e7c7b&text_color=555555" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihar-landge&layout=compact&theme=transparent&hide_border=true&title_color=0e7c7b&text_color=555555" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nihar-landge&theme=transparent&hide_border=true&ring=0e7c7b&fire=0e7c7b&currLabel=0e7c7b" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nihar-landge&theme=algolia&no-frame=true&margin-w=8&column=7" alt="Trophies" />
-</p>
 
 ---
 
@@ -204,22 +136,6 @@ flowchart LR
 ```
 
 > _Live in production. Traced end-to-end. Provisioned by code._
-
----
-
-### Pipeline Status
-
-Live workflow status from my own repos — proof the pipelines stay green.
-
-| Repo | Workflow | Status |
-|------|----------|-------|
-| [`build-service`](https://github.com/nihar-landge/build-service) | CI | [![CI](https://github.com/nihar-landge/build-service/actions/workflows/ci.yml/badge.svg)](https://github.com/nihar-landge/build-service/actions) |
-| [`go-web-app`](https://github.com/nihar-landge/go-web-app) | Build & Deploy | [![Build & Deploy](https://github.com/nihar-landge/go-web-app/actions/workflows/deploy.yml/badge.svg)](https://github.com/nihar-landge/go-web-app/actions) |
-| [`mean-stack-docker-cicd`](https://github.com/nihar-landge/mean-stack-docker-cicd) | Docker CI/CD | [![Docker CI/CD](https://github.com/nihar-landge/mean-stack-docker-cicd/actions/workflows/docker.yml/badge.svg)](https://github.com/nihar-landge/mean-stack-docker-cicd/actions) |
-| [`tomcat-docker-eks-demo`](https://github.com/nihar-landge/tomcat-docker-eks-demo) | Deploy to EKS | [![Deploy](https://github.com/nihar-landge/tomcat-docker-eks-demo/actions/workflows/eks.yml/badge.svg)](https://github.com/nihar-landge/tomcat-docker-eks-demo/actions) |
-| [`shared-workflows`](https://github.com/nihar-landge/shared-workflows) | Reusable Workflows | [![Workflows](https://github.com/nihar-landge/shared-workflows/actions/workflows/test.yml/badge.svg)](https://github.com/nihar-landge/shared-workflows/actions) |
-
-> _If a badge is red, I'm probably already fixing it._
 
 ---
 
