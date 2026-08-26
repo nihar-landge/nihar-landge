@@ -1,6 +1,6 @@
 # Hi, I'm Nihar Landge
 
-<img align="right" src="https://unavatar.io/linkedin/nihar-landge&label=PROFILE+VIEWS&color=0e7c7b&style=flat" />
+<img align="right" src="https://unavatar.io/linkedin/nihar-landge?label=PROFILE+VIEWS&color=0e7c7b&style=flat" />
 
 ```yaml
 role:      Cloud & DevOps Engineer
@@ -110,7 +110,7 @@ flowchart LR
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=0E7C7B&center=true&vCenter=true&multiline=true&repeat=false&width=500&lines=git+commit+-m+%22shipping%22;git+push+origin+main;git+log+--oneline" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=0E7C7B&center=true&vCenter=true&multiline=true&repeat=false&width=500&lines=git+comm[...]" />
 </p>
 
 <p align="center">
