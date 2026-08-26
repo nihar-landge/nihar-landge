@@ -114,7 +114,7 @@ flowchart LR
 </p>
 
 <p align="center">
-  <sub>Find me elsewhere as <code>@nihar-landge</code>.</sub>
+  <sub>Find me elsewhere as <code>@niharlandge</code>.</sub>
 </p>
 
 <!--
