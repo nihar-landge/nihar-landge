@@ -1,6 +1,6 @@
 # Hi, I'm Nihar Landge
 
-<img align="right" src="https://komarev.com/ghpvc.svg?username=nihar-landge&label=PROFILE+VIEWS&color=0e7c7b&style=flat" />
+<img align="right" src="https://unavatar.io/linkedin/nihar-landge&label=PROFILE+VIEWS&color=0e7c7b&style=flat" />
 
 ```yaml
 role:      Cloud & DevOps Engineer
