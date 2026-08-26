@@ -6,7 +6,7 @@
 role:      Cloud & DevOps Engineer
 focus:     Infrastructure as Code · Observability · CI/CD
 location:  India
-status:    shipping
+status:    shipping every sat and sunday
 ```
 
 ---
